@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MidPointCircleActivity">
+
+    <com.volokh.danylo.midpointcircle.Diagram
+        android:id="@+id/mid_point_circle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.volokh.danylo.midpointcircle.Diagram
+        android:id="@+id/mid_point_circle_modified"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/reload_mid_point_circle"
+        android:text="Reload Mid Point Circle"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <Button
+        android:id="@+id/reload_mid_point_circle_modified"
+        android:text="Reload Mid Point Circle Modified"
+        android:layout_below="@+id/reload_mid_point_circle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+</RelativeLayout>
